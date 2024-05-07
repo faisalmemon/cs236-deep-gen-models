@@ -94,6 +94,22 @@ Using Chain Rule
 \end{align}
 
 This is the kind of factorisation used in autoregressive models.
+In fact, any collection of random variables can be factored in this way.
+
+How many parameters do we now need?
+
+$ 1 + 2 + 4 + \cdots + 2^{n-1} = 2^{n} - 1$
+
+The reason why this is a geometric series is because with $ x_{i} $ being $0$ or $1$ then $ x_{1},x_{2} $ means four possibilities so $ p(x_{3} | x_{1}, x_{2}) $ requires 4 parameters. So we have not yet made progress on simplifying our computation.
+
+Now let us suppose that for $ X_{i+1} $ where $X_{i+1}$ represents the weather on day $ i + 1 $ is dependent on only the weather on day $ i $ and independent of the weather on prior days $ 1, \cdots , i - 1 $.  Then we can write this as
+$ X_{i+1} \bot \, X_{1}, \cdots X_{i-1} \, | \, X_{i} $
+
+This allows us to simplify because
+$ p(x_{3} | x_{1}, x_{2}) $ becomes $ p(x_{3} | x_{2}) $ and so on.
+Now we are conditioning on at most one variable.
+
+% carry on at 28:31 of https://www.youtube.com/watch?v=rNEujZmD2Tg&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8
 
 
 \end{document}
