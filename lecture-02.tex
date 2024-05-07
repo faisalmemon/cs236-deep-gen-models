@@ -64,4 +64,36 @@ We need to have some simplifying assumptions.
 
 \section{Structure through independence}
 
+If $ X_{1}, \cdots , X_{n} $ are independent, then
+\begin{align}
+p(x_{1}, \cdots , x_{n}) &= p(x_{1})p(x_{2})\cdots p(x_{n})
+\end{align}
+
+With this assumption how many states are needed for the images? 
+It is $ 2^{n} $ where $n$ is the number of pixels.
+If the images are black and white, $ |Val(X_{i})| = 2 $. So $2^{n}$ entries can be described by just $n$ numbers.
+
+In reality the independence assumption is too strong.  Because for digits handwritten, you won't get random scattering of pixels.  They will be lit up in a localised area representing the stroke of the pen.
+
+What we do is instead to make conditional independence assumptions.
+
+\begin{enumerate}
+    \item \textbf{Chain rule} Let $ S_{1}, \cdots S_{n} $ be events, $ p(S_{i}) > 0 $.
+    \newline
+    $ p(S_{1} \cap S_{2} \cap \cdots \cap S_{n}) = p(S_{1})p(S_{2} | S_{1}) \cdots p(S_{n} | S_{1} \cap \cdots \cap S_{n-1})  $
+    \item \textbf{Bayes' rule} Let $ S_{1}, S_{2} $ be events, $ p(S_{1}) > 0 $ and $ p(S_{2}) > 0 $.
+    \newline
+    $ p (S_{1} | S_{2}) = \frac{p(S_{1} \cap S_{2})}{p(S_{2})} = \frac{p(S_{2} | S_{1})p(S_{1})}{p(S_{2})}$
+\end{enumerate}
+
+In the Chain Rule, the joint distributions on the left are hard to know but the conditional probabilities (aka marginal probabilities) terms on the right are easier to obtain.  This is why the Chain Rule helps us.
+
+Using Chain Rule
+\begin{align}
+    p(x_{1}, \cdots , x_{n}) &= p(x_{1})p(x_{2} | x_{1})p(x_{3} | x_{1},x_{2}) \cdots p(x_{n} | x_{1}, \cdots , x_{n-1})
+\end{align}
+
+This is the kind of factorisation used in autoregressive models.
+
+
 \end{document}
