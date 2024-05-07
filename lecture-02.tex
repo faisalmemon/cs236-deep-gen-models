@@ -20,4 +20,38 @@
     \end{normalsize}
     \label{fig:probability_distribution}
 \end{figure}
+
+
+\begin{itemize}
+    \item Over on the left, the blue represents the real world system from which we have data samples.  It could be a set of images of dogs, for example.  So $ x_{i} \sim P_{data} $
+    \item The green area is the space of possibilities of probability distributions that are parameterised by $ \theta$.
+    \item We need to define the notion of distance or loss function $d$.
+\end{itemize}
+
+We want to learn a probability distribution $ p(x) $ over images $x$ such that:
+\begin{itemize}
+    \item \textbf{Generation:} If we sample $ x_{new} \sim p(x) $, $ x_{new} $ should look like a dog (\emph{sampling})
+    \item \textbf{Density estimation:} $ p(x) $ should be high if $x$ looks like a dog, and low otherwise (\emph{anomaly detection})
+    \item \textbf{Unsupervised representation learning:} We should be able to learn what these images have in common, e.g. ears, tails, etc. (\emph{features})
+\end{itemize}
+
+\section{How do you represent the probability distribution $p(x)$?}
+
+For low dimensional data it would be straightforward.  In the simplest case, binary distribution biased coin flip (Heads or Tails) is modelled by the Bernoulli Distribution.
+\begin{itemize}
+    \item $ D = \{ Heads, Tails \} $
+    \item Specify $ P(X = Heads) = p $. Then $ P(X = Tails) = 1 - p $
+    \item Write $ X \sim Ber(p) $
+    \item Sampling: flip a (biased) coin
+
+\end{itemize}
+
+Extending this, we can have a Categorical distribution: a biased m-sided dice.
+\begin{itemize}
+    \item $ D = \{ 1, \cdots, m \} $
+    \item $ P(Y=i) = p_{i} $ such that $ \sum p_{i} = 1 $
+    \item Write $ Y \sim Cat(p_{1}, \cdots, p_{m}) $
+    \item Sampling: roll a biased die
+\end{itemize}
+
 \end{document}
