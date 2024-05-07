@@ -54,4 +54,14 @@ Extending this, we can have a Categorical distribution: a biased m-sided dice.
     \item Sampling: roll a biased die
 \end{itemize}
 
+\subsection{Images}
+When we consider images, they are comprised of pixels.  And each pixel can be considered three random variables, R, G, B each of which is taken from $ \{ 0, \cdots , 255 \} $
+Sampling from the joint distribution $ (r, g, b) \sim p(R, G, B) $ randomly generates a colour for the pixel.
+The number of parameters to represent this space is $ 256 * 256 * 256 - 1 $.
+We have the $ -1 $ because the probabilities we know have to add up to one, so the last parameter is implicitly known by subracting from 1 the sum of all the other parameters.
+The problem is that for modest images, the number of parameters is too large.  E.g. $ 23 $ x $ 23 $ pixels black and white for representing a handwritten digit means $ 2^{529} -1 $ parameters.
+We need to have some simplifying assumptions.
+
+\section{Structure through independence}
+
 \end{document}
