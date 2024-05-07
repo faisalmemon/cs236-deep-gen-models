@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.14029mm"
+   height="69.534981mm"
+   viewBox="0 0 135.14029 69.534981"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="probability_distribution.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0824912"
+     inkscape:cx="242.0343"
+     inkscape:cy="120.55525"
+     inkscape:window-width="784"
+     inkscape:window-height="750"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.950767,-93.039066)">
+    <path
+       style="fill:none;stroke:#c42424;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#ConcaveTriangle);marker-end:url(#marker4)"
+       d="m 47.976922,119.25692 69.909228,-5.02615"
+       id="path1" />
+    <path
+       style="fill:#54bc39;fill-opacity:1;stroke:#34c830;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 134.33538,139.36154 c -2.36647,-2.29472 -4.65038,-4.81628 -6.27059,-7.68537 -1.51502,-2.46245 -1.75394,-4.24314 -3.18434,-6.16466 -1.69283,-2.03668 -3.12891,-5.41977 -4.13123,-6.78995 -0.94195,-2.07661 -3.62246,-4.66895 -1.6245,-7.16619 1.26583,-1.93632 4.10204,-2.05643 3.74311,-4.59344 1.95799,-1.95584 3.40509,-4.36359 5.66696,-6.02065 2.10447,-1.921129 4.38374,-3.511051 6.7545,-5.093197 2.65611,-1.317092 5.64808,-2.2321 8.64148,-2.178854 2.11065,-0.918486 4.60074,-0.448172 6.76412,-0.05393 3.32553,-0.04211 5.61756,2.651558 8.24293,4.297675 0.91607,1.040231 1.65683,1.187799 2.08587,0.929349 1.99373,1.922269 3.36025,4.589499 6.14481,5.545199 2.38539,1.71032 5.36184,2.08205 7.83076,3.6057 2.01063,1.78912 0.66568,4.75066 -0.5273,6.62906 -0.86835,2.34546 -1.84003,4.73376 -1.81774,7.33148 -0.4423,2.67099 -1.54887,5.21812 -2.33554,7.79148 -0.69443,2.67491 -0.92962,5.50732 -2.46235,7.90059 -1.45201,3.44654 -5.39643,2.31249 -8.248,3.25513 -3.17845,0.72528 -6.54411,-0.42898 -9.51405,1.38891 -2.42998,0.80278 -5.00442,0.75357 -7.53428,0.72705 -1.96197,-1.45006 -4.78877,-0.80109 -6.57681,-1.95976 -0.71252,-0.34243 -1.57358,-0.8017 -1.64781,-1.69562 z"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.028172"
+       y="120.82875"
+       id="text5"
+       transform="rotate(-4.5114311)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';stroke-width:0.264583"
+         x="44.028172"
+         y="120.82875"
+         id="tspan8">$d(P_{data},P_{\theta}) $</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';fill:#000000;fill-opacity:1;stroke:#304cf3;stroke-width:0.264583;stroke-opacity:1"
+       x="41.579998"
+       y="127.93846"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';stroke:#304cf3;stroke-width:0.264583;stroke-opacity:1"
+         x="41.579998"
+         y="127.93846">$ P_{data} $</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="111.94946"
+       y="121.46838"
+       id="text6-7"><tspan
+         sodipodi:role="line"
+         id="tspan6-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';stroke-width:0.264583"
+         x="111.94946"
+         y="121.46838">$ P_{\theta} $</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="137.14557"
+       y="151.27634"
+       id="text6-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan6-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';stroke-width:0.264583"
+         x="137.14557"
+         y="151.27634">$ \theta \in M $</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="130.61226"
+       y="161.53725"
+       id="text6-7-6-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Bold';stroke-width:0.264583"
+         x="130.61226"
+         y="161.53725"
+         id="tspan7">Model Family</tspan></text>
+    <ellipse
+       style="opacity:0.488746;fill:#de2058;fill-opacity:1;stroke:#304cf3;stroke-width:2.9315;stroke-opacity:1"
+       id="path8"
+       cx="43.864613"
+       cy="119.48538"
+       rx="1.4480956"
+       ry="1.2196342" />
+    <ellipse
+       style="opacity:0.488746;fill:#de2058;fill-opacity:1;stroke:#40f330;stroke-width:2.9315;stroke-opacity:1"
+       id="path8-8"
+       cx="121.09548"
+       cy="114.31609"
+       rx="1.4480956"
+       ry="1.2196342" />
+  </g>
+</svg>
