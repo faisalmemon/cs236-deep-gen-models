@@ -158,7 +158,32 @@ Using the terminology d, i, g, s, l for difficulty, intelligence, grade, SAT, an
 
 \begin{align}
     p(x_{1}, \cdots , x_{n}) &= \prod_{i \in V} p(x_{i} | \boldsymbol{x}_{Pa(i)}) \\
-    \\
     p(d,i,g,s,l) &= p(d)p(i)p(g | i,d)p(s | i)p(l | g)
 \end{align}
+
+However, it is always true, by the chain rule, \textit{any} distribution can be written as
+
+\begin{align}
+    p(d, i, g, s, l) &= p (d)p(i | d)p(s | i, d, g)p(l | g,d,i, s)
+\end{align}
+
+Therefore, we are assuming the following additional independencies:
+
+\begin{itemize}
+    \item $ D \bot I $
+    \item $ S \bot \{D, G\} | I $
+    \item $ L \bot \{ I, D, S \} | G $
+\end{itemize}
+
+\section{Discriminative model}
+
+What is the difference between the discriminative model approach and the generative approach?  We will look at the discriminative case here for e-mail spam detection.
+
+Classify e-mails as spam $(Y = 1)$ or not spam $(Y = 0)$
+\begin{itemize}
+    \item Let $ 1 : n $ index the words in our vocabulary (e.g. English)
+    \item $ X_{i} = 1 $ if word $i$ appears in an e-mail, and $0$ otherwise
+    \item E-mails are drawn according to some distribution $ p(Y, X_{1}, \cdots , X_{n})$
+\end{itemize}
+
 \end{document}
