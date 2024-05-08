@@ -105,11 +105,35 @@ The reason why this is a geometric series is because with $ x_{i} $ being $0$ or
 Now let us suppose that for $ X_{i+1} $ where $X_{i+1}$ represents the weather on day $ i + 1 $ is dependent on only the weather on day $ i $ and independent of the weather on prior days $ 1, \cdots , i - 1 $.  Then we can write this as
 $ X_{i+1} \bot \, X_{1}, \cdots X_{i-1} \, | \, X_{i} $
 
-This allows us to simplify because
-$ p(x_{3} | x_{1}, x_{2}) $ becomes $ p(x_{3} | x_{2}) $ and so on.
+This allows us to simplify because for example the third term 
+$ p(x_{3} | x_{1}, x_{2}) $ becomes $ p(x_{3} | x_{2}) $.
+This is true for the second to the $ (n - 1) th$ term.  
 Now we are conditioning on at most one variable.
+Each of those terms requires two parameters; one for the $ x_{i} = 0 $ case and one for the $ x_{i} = 1 $ case.
+The first term requires just one parameter since it is one variable alone.
 
-% carry on at 28:31 of https://www.youtube.com/watch?v=rNEujZmD2Tg&list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8
+How many parameters do we now need?
+$ 1 + \underbrace{2 + 2 + \cdots + 2}_{n -1} = 2n - 1 $
 
+This is a exponential improvement but the predictions may not be good as just using the prior event alone is not enough context for good prediction, such as predicting the next word in a sentence.
+
+\section{Bayes' Network}
+
+Here we use conditional parameterisation instead of joint parameterisation.
+For each random variable $ X_{i} $ specify $ p(x_{i}|\boldsymbol{x}_{\boldsymbol{A_{i}}}) $ for set $ \boldsymbol{X_{A_{i}}} $ of random variables.
+
+Then the joint parameterisation is
+$ p(x_{1}, \cdots , x_{n}) = \prod_{i} p(x_{i} | \boldsymbol{x}_{\boldsymbol{A_{i}}}))  $
+
+We define a \textbf{Bayesian network} as a \textit{directed} \textbf{acyclic} graph (DAG)
+\begin{align}  
+    G &= (V, E)
+\end{align}
+
+\begin{itemize}
+    \item One node $ i \in V $ for each random variable $ X_{i} $
+    \item One node for each pixel in images, one node for each word in sentences
+    \item One conditional probability distribution (CPD) per node, $ p(x_{i} | \boldsymbol{x}_{Pa(i)}) $, specifying the variable's probability conditioned on its parents' values
+\end{itemize}
 
 \end{document}
