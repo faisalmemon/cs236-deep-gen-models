@@ -55,7 +55,7 @@
     \setlength\tabcolsep{0pt}%
     \put(-0.00179716,0.4779353){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}difficulty\end{tabular}}}}%
     \put(0.4919441,0.47793525){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}intelligence\end{tabular}}}}%
-    \put(0.10035619,0.29065401){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}grade\end{tabular}}}}%
+    \put(0.11738171,0.27930365){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}grade\end{tabular}}}}%
     \put(0.87785699,0.30200442){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SAT\end{tabular}}}}%
     \put(0.11170651,0.00121951){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}letter\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{bayes_network.pdf}}%

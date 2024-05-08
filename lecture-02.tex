@@ -145,5 +145,20 @@ We define a \textbf{Bayesian network} as a \textit{directed} \textbf{acyclic} gr
     \item \textbf{Economical representation:} exponential in $ |Pa(i)| $ not $ |V| $
 \end{itemize}
 
+\section{Course Grade Example}
+\begin{figure}[hbt!]
+    \centering
+    \begin{normalsize}
+        \import{figs/}{bayes_network.pdf_tex}
+    \end{normalsize}
+    \label{fig:Bayes Network for course grading}
+\end{figure}
 
+Using the terminology d, i, g, s, l for difficulty, intelligence, grade, SAT, and letter respectively, the joint distribution is:
+
+\begin{align}
+    p(x_{1}, \cdots , x_{n}) &= \prod_{i \in V} p(x_{i} | \boldsymbol{x}_{Pa(i)}) \\
+    \\
+    p(d,i,g,s,l) &= p(d)p(i)p(g | i,d)p(s | i)p(l | g)
+\end{align}
 \end{document}
