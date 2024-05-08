@@ -186,4 +186,15 @@ Classify e-mails as spam $(Y = 1)$ or not spam $(Y = 0)$
     \item E-mails are drawn according to some distribution $ p(Y, X_{1}, \cdots , X_{n})$
 \end{itemize}
 
+The naive Bayes for this setup is to make $Y$ conditionally probable separately amongst $X_{i}$.
+
+\begin{figure}[hbt!]
+    \centering
+    \begin{normalsize}
+        \import{figs/}{naive_bayes.pdf_tex}
+    \end{normalsize}
+    \label{fig:Naive Bayes for Spam detection}
+\end{figure}
+
+
 \end{document}
