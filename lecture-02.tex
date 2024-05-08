@@ -202,4 +202,12 @@ Then
     p(y, x_{1}, \cdots , x_{n}) &= p(y) \prod_{i=1}^{n}p(x_{i}\,| \,y)
 \end{align}
 
+We \textbf{estimate} the parameters from training data.
+We \textbf{predict} with Bayes rule:
+
+\begin{align}
+    p(Y = 1 \, | \, x_{1}, \cdots , x_{n}) &= 
+     \frac{p(Y=1)\prod_{i=1}^{n}p(x_{i} \, | \, Y = 1)}{\sum_{y=\{0,1\}}p(Y=y)\prod_{i=1}^{n}p(x_{i} \, | \, Y = y)}
+\end{align}
+
 \end{document}
