@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="73.537384mm"
+   height="48.857849mm"
+   viewBox="0 0 73.537384 48.857849"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="desc_vs_gen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5219183"
+     inkscape:cx="126.81364"
+     inkscape:cy="49.608444"
+     inkscape:window-width="1000"
+     inkscape:window-height="702"
+     inkscape:window-x="38"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.591942,-19.091383)">
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="25.336143"
+       y="22.985205"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="25.336143"
+         y="22.985205">Generative</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="66.428459"
+       y="22.980038"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.264583"
+         x="66.428459"
+         y="22.980038">Discriminative</tspan></text>
+    <g
+       id="g5">
+      <circle
+         style="opacity:0.488746;fill:#bababa;stroke:#000000;stroke-width:1;stroke-opacity:0.968627"
+         id="path2-0"
+         cx="37.017181"
+         cy="61.429729"
+         r="5.5219793" />
+      <g
+         id="g4">
+        <circle
+           style="opacity:0.488746;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.968627"
+           id="path2"
+           cx="37.354568"
+           cy="33.781525"
+           r="5.5219793" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+           d="M 37.075496,39.545976 V 51.509502"
+           id="path3"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+           x="35.323284"
+           y="34.371693"
+           id="text3"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="stroke-width:0.264583"
+             x="35.323284"
+             y="34.371693">$Y$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+           x="35.369034"
+           y="62.956055"
+           id="text4"><tspan
+             sodipodi:role="line"
+             id="tspan4"
+             style="stroke-width:0.264583"
+             x="35.369034"
+             y="62.956055">$ \boldsymbol{X} $</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5-3"
+       transform="translate(42.553949,0.49752411)">
+      <circle
+         style="opacity:0.488746;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.968627"
+         id="path2-0-2"
+         cx="37.017181"
+         cy="61.429729"
+         r="5.5219793" />
+      <g
+         id="g4-6">
+        <circle
+           style="opacity:0.488746;fill:#bababa;stroke:#000000;stroke-width:1;stroke-opacity:0.968627"
+           id="path2-9"
+           cx="37.354568"
+           cy="33.781525"
+           r="5.5219793" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-4)"
+           d="M 37.075496,39.545976 V 51.509502"
+           id="path3-4"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+           x="35.323284"
+           y="34.371693"
+           id="text3-1"><tspan
+             sodipodi:role="line"
+             id="tspan3-3"
+             style="stroke-width:0.264583"
+             x="35.323284"
+             y="34.371693">$ \boldsymbol{X} $</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+           x="35.369034"
+           y="62.956055"
+           id="text4-7"><tspan
+             sodipodi:role="line"
+             id="tspan4-8"
+             style="stroke-width:0.264583"
+             x="35.369034"
+             y="62.956055">$Y$</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
