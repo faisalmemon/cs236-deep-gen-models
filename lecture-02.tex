@@ -136,4 +136,14 @@ We define a \textbf{Bayesian network} as a \textit{directed} \textbf{acyclic} gr
     \item One conditional probability distribution (CPD) per node, $ p(x_{i} | \boldsymbol{x}_{Pa(i)}) $, specifying the variable's probability conditioned on its parents' values
 \end{itemize}
 
+\begin{align}
+    p(x_{1}, \cdots , x_{n}) &= \prod_{i \in V} p(x_{i} | \boldsymbol{x}_{Pa(i)}))
+\end{align}
+
+\begin{itemize}
+    \item We claim that $ p(x_{1}, \cdots , x_{n}) $ is a valid probability distribution because of ordering implied by DAG.
+    \item \textbf{Economical representation:} exponential in $ |Pa(i)| $ not $ |V| $
+\end{itemize}
+
+
 \end{document}
