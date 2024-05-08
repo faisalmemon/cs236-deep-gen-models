@@ -210,4 +210,22 @@ We \textbf{predict} with Bayes rule:
      \frac{p(Y=1)\prod_{i=1}^{n}p(x_{i} \, | \, Y = 1)}{\sum_{y=\{0,1\}}p(Y=y)\prod_{i=1}^{n}p(x_{i} \, | \, Y = y)}
 \end{align}
 
+Are these independence assumptions reasonable?
+Philosophy: Nearly all probablistic models are ``wrong'' but are nonetheless useful.
+
+\section{Descriminative versus generative models}
+
+Here we explain the differences between the generative and the descriminative approaches.
+
+Using the chain rule $p(Y, \boldsymbol{X}) = p(\boldsymbol{X} | Y)p(Y) = p(Y | \boldsymbol{X})p(\boldsymbol{X}) $.
+This gives rise to the corresponding Bayesian networks:
+
+\begin{figure}[hbt!]
+    \centering
+    \begin{normalsize}
+        \import{figs/}{desc_vs_gen.pdf_tex}
+    \end{normalsize}
+    \label{fig:Descriminative versus generative}
+\end{figure}
+
 \end{document}
