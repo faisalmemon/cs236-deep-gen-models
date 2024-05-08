@@ -186,7 +186,7 @@ Classify e-mails as spam $(Y = 1)$ or not spam $(Y = 0)$
     \item E-mails are drawn according to some distribution $ p(Y, X_{1}, \cdots , X_{n})$
 \end{itemize}
 
-The naive Bayes for this setup is to make $Y$ conditionally probable separately amongst $X_{i}$.
+The naive Bayes for this setup is to make the words conditionally independent given $Y$:
 
 \begin{figure}[hbt!]
     \centering
@@ -196,5 +196,10 @@ The naive Bayes for this setup is to make $Y$ conditionally probable separately 
     \label{fig:Naive Bayes for Spam detection}
 \end{figure}
 
+Then
+
+\begin{align}
+    p(y, x_{1}, \cdots , x_{n}) &= p(y) \prod_{i=1}^{n}p(x_{i}\,| \,y)
+\end{align}
 
 \end{document}
